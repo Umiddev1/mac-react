@@ -1,0 +1,23 @@
+.macimgs {
+  position: relative;
+  left: 90px;
+}
+.miniimgs {
+  display: flex;
+}
+.mini__img {
+  width: 100px;
+  height: auto;
+  cursor: pointer;
+  margin-left: 5px;
+  object-fit: cover;
+  border: 2px solid transparent;
+  border-radius: 8px;
+}
+.mini__img:hover {
+  border-color: #111;
+}
+.imgs {
+  width: 400px;
+  height: auto;
+}
